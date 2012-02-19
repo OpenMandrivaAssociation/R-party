@@ -13,6 +13,8 @@ Requires:         R-methods R-survival R-grid R-modeltools R-coin R-zoo R-sandwi
 Requires:         R-ipred R-mlbench R-colorspace R-MASS R-mvtnorm 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-survival R-grid R-modeltools R-coin R-zoo R-sandwich R-strucchange R-vcd R-stats
 BuildRequires:    R-ipred R-mlbench R-colorspace R-MASS R-mvtnorm 
+BuildRequires:    blas-devel
+BuildRequires:    lapack-devel
 
 %description
 A computational toolbox for recursive partitioning. The core of the
