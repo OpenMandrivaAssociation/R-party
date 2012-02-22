@@ -9,10 +9,13 @@ Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.9-99996.tar.gz
-Requires:         R-methods R-survival R-grid R-modeltools R-coin R-zoo R-sandwich R-strucchange R-vcd R-stats 
-Requires:         R-ipred R-mlbench R-colorspace R-MASS R-mvtnorm 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-survival R-grid R-modeltools R-coin R-zoo R-sandwich R-strucchange R-vcd R-stats
-BuildRequires:    R-ipred R-mlbench R-colorspace R-MASS R-mvtnorm 
+Requires:         R-methods R-survival R-grid R-modeltools R-coin R-zoo
+Requires:         R-sandwich R-strucchange R-vcd R-stats
+Requires:         R-ipred R-mlbench R-colorspace R-MASS R-mvtnorm
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-methods R-survival R-grid R-modeltools R-coin R-zoo
+BuildRequires:    R-sandwich R-strucchange R-vcd R-stats
+BuildRequires:    R-ipred R-mlbench R-colorspace R-MASS R-mvtnorm
 BuildRequires:    blas-devel
 BuildRequires:    lapack-devel
 
