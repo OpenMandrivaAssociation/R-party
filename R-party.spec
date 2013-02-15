@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.9_99996
+Version:          1.0.6
 Release:          1
 Summary:          A Laboratory for Recursive Partytioning
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.9-99996.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/party_1.0-6.tar.gz
 Requires:         R-methods R-survival R-grid R-modeltools R-coin R-zoo
 Requires:         R-sandwich R-strucchange R-vcd R-stats
 Requires:         R-ipred R-mlbench R-colorspace R-MASS R-mvtnorm
@@ -57,7 +57,6 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %doc %{rlibdir}/%{packname}/CITATION
 %doc %{rlibdir}/%{packname}/DESCRIPTION
 %doc %{rlibdir}/%{packname}/NEWS
-%doc %{rlibdir}/%{packname}/README
 %{rlibdir}/%{packname}/INDEX
 %{rlibdir}/%{packname}/NAMESPACE
 %{rlibdir}/%{packname}/Meta
