@@ -7,7 +7,7 @@ Release:          2
 Summary:          A Laboratory for Recursive Partytioning
 Group:            Sciences/Mathematics
 License:          GPL-2
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/party_1.0-6.tar.gz
 Requires:         R-methods R-survival R-grid R-modeltools R-coin R-zoo
 Requires:         R-sandwich R-strucchange R-vcd R-stats
